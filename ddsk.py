@@ -1,11 +1,11 @@
 import random
 
 def main():
-    str_ddsk = ["どど","すこ"]
+    str_ddsk = ["ドド","スコ"]
+    str_end = (str_ddsk[0] + str_ddsk[1] * 3) * 3
     str_love = "LOVE注入♡"
     str_buf = ""
-    str_ddsksksk = str_ddsk[0] + str_ddsk[1] + str_ddsk[1] + str_ddsk[1]
-    str_end = str_ddsksksk + str_ddsksksk + str_ddsksksk
+    str_random = ""
     i = 0
     while(True):
         str_random = str_ddsk[random.randint(0,1)]
