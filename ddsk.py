@@ -14,6 +14,7 @@ def main():
         str_buf += str_random
         if(str_buf[-(str_end.__len__()):] == str_end):
             print("\n" + i.__str__() + "回目に " + str_buf[-(str_end.__len__()):] + " " + str_love)
+            input("Please press any keys to quit.")
             break        
 
 if __name__ == '__main__':
